@@ -1,4 +1,4 @@
-![Logo](https://github.com/MiladMazaheri83/Comprehensive-education-system/blob/main/readme/Logo.jpg?raw=true)
+![Logo](https://github.com/MiladMazaheri83/Comprehensive-education-system/blob/main/readme/logo.jpg)
 
 
 # Comprehensive-education-system
