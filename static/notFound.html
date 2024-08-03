@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .error-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+    }
+
+    h1 {
+      color: #333;
+      margin-top: 0;
+    }
+
+    h2 {
+      color: #777;
+      margin-top: 5px;
+    }
+
+    p {
+      color: #555;
+      padding-bottom: 15px;
+    }
+
+    .buttons-con .action-link-wrap a {
+      font-family: Arial, sans-serif;
+      background: #5371dd;
+      padding: 8px 25px;
+      border-radius: 4px;
+      color: #FFF;
+      font-weight: bold;
+      font-size: 14px;
+      transition: all 0.3s linear;
+      cursor: pointer;
+      text-decoration: none;
+      margin-right: 10px
+    }
+
+    .buttons-con .action-link-wrap a:hover {
+      background: #5A5C6C;
+      color: #fff;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="error-container">
+    <h1>Not Found</h1>
+    <h2>Error: <em>404</em></h2>
+    <p>Oops! There is no such a data...</p>
+    <div class="buttons-con">
+      <div class="action-link-wrap">
+        <a onclick="history.back(-1)" class="link-button link-back-button">Go Back To Continue</a>
+      </div>
+  </div>
+</body>
+
+</html>
